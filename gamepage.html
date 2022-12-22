@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory game</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body id="game">
+   
+
+    <section class="container mx-auto">
+      <section class="mx-auto">
+        <div class="row">
+          <div class="col-12 text-center points">
+            <p style="color: black;">Battles won: <span id="point"> 0</span></p>
+          </div>
+        </div>
+
+        <div id="won" class="text-center">
+          <h1>You pass the game!</h1>
+          <p>Battles won: <span id="finalPoints">0</span></p>
+          <button class="btn" id="playAgain">Play again</button>
+        </div>
+
+        <section class="memory-game">
+          <div class="memory-card" data-cards="card1">
+            <img class="front-face" src="1.jpg" alt="princess1" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card1">
+            <img class="front-face" src="1 - Copy.jpg" alt="princess1" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+
+          <div class="memory-card" data-cards="card2">
+            <img class="front-face" src="2.jpg" alt="princess2" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card2">
+            <img class="front-face" src="2 - Copy.jpg" alt="princess2" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+
+          <div class="memory-card" data-cards="card3">
+            <img class="front-face" src="3.png" alt="princess3" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card3">
+            <img class="front-face" src="3 - Copy.png" alt="princess3" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+
+          <div class="memory-card" data-cards="card4">
+            <img class="front-face" src="4.png" alt="princess4" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card4">
+            <img class="front-face" src="4 - Copy.png" alt="princess4" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+
+          <div class="memory-card" data-cards="card5">
+            <img class="front-face" src="5.png" alt="princess5" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card5">
+            <img class="front-face" src="5 - Copy.png" alt="princess5" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+
+          <div class="memory-card" data-cards="card6">
+            <img class="front-face" src="6.png" alt="princess6" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+          <div class="memory-card" data-cards="card6">
+            <img class="front-face" src="6 - Copy.png" alt="princess6" />
+            <img class="back-face" src="q1.jpg" alt="sky" />
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <script src="memoryGame.js"></script>
+  </body>
+</html>
